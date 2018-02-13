@@ -39,7 +39,7 @@ At last, the results were write to the output file `repeat_donors.txt`.
 To run the program, execute `./run.sh` at the root directory of the project.
 
 # Tests Instructions
-In the 'insight_testsuite' directory, 6 different tests were tested.
+In the `insight_testsuite` directory, 6 different tests were tested.
 1. original insight_testsuite test
 2. added some more donation records based on 1
 3. changed `percentile` from 30 to 50
@@ -47,7 +47,7 @@ In the 'insight_testsuite' directory, 6 different tests were tested.
 5. the input file is a 17.6M file contains the first 100000 lines of Contributions by Individuals 2017 - 2018 Data File by [FEC](https://classic.fec.gov/finance/disclosure/ftpdet.shtml#a2017_2018).
 6. a minimal input file 
 
-To test the program using the testsuite, execute `./run_tests.sh` at the 'insight_testsuite' directory.
+To test the program using the testsuite, execute `./run_tests.sh` at the `insight_testsuite` directory.
 
 # Discussion
 
