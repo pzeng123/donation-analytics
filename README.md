@@ -1,7 +1,7 @@
 # Introduction
 The Insight Data Engineering Coding Challenge problem could be found [here](https://github.com/InsightDataScience/donation-analytics).
 
-This solution was developed with python 3.6
+This solution was developed with Python 3.6
 
 Required python modules:
  * sys
@@ -19,11 +19,11 @@ The donation analytics for repeat donors is `repeat_donors.txt` and it appears i
 # Method
 
 The input file was read line by line and it will be skipped if it's invalid: 
-1. TRANSACTION_DT is an invalid date
-2. ZIP_CODE is an invalid zip code
-3. NAME is an invalid name
-4. CMTE_ID or TRANSACTION_AMT is empty
-5. OTHER_ID is NOT empty  
+1. `TRANSACTION_DT` is an invalid date
+2. `ZIP_CODE` is an invalid zip code
+3. `NAME` is an invalid name
+4. `CMTE_ID` or `TRANSACTION_AMT` is empty
+5. `OTHER_ID` is NOT empty  
 
 While reading the input file, data were stored in these two dictionaries: `donor_dic` and `recipient_dic`.
 
